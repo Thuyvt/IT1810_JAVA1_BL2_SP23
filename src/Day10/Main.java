@@ -27,6 +27,7 @@ public class Main {
             System.out.println("4. Hiển thị thông tin đối tượng có bậc lương cao nhất");
             System.out.println("5. Tính độ tuổi trung bình của các bác sĩ");
             System.out.println("6. Xóa những bác sĩ là nội trú khỏi danh sách và hiển thị lại");
+            System.out.println("7. Sửa thông tin bằng index");
             System.out.println("0.Thoát");
             System.out.println("---------------------------------");
             System.out.print("Nhap chuong trinh can chay:");
@@ -50,6 +51,18 @@ public class Main {
                     break;
                 }
                 case "6" -> {
+                    break;
+                }
+                case "7" -> {
+                    ql.sua();
+                    break;
+                }
+                case "8" -> {
+                    ql.suaLuong();
+                    break;
+                }
+                case "9" -> {
+                    ql.sapXep();
                     break;
                 }
                 case "0" -> {

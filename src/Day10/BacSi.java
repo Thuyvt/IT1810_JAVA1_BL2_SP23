@@ -99,7 +99,7 @@ public class BacSi {
     public void inThongTin() {
         System.out.println("Tên: " + this.ten);
         System.out.println("Ngày sinh:" + this.ngaySinh);
-        System.out.println("Giới tính:" + (this.gioiTinh == 1 ? "Nữ" : "Nam"));
+        System.out.println("Giới tính:" + (this.gioiTinh == 1 ? "Nam" : "Nữ"));
         System.out.println("Xếp hạng:" + this.xepLoai);
         System.out.println("Khoa:" + this.khoa);
         System.out.println("Bậc lương:" + this.bacLuong);
